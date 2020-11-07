@@ -8,11 +8,12 @@ void main() {
       appBar: AppBar(
         centerTitle: true,
         title: Text("I Am Rich"),
+        debugShowCheckedModeBanner: false,
         backgroundColor: Colors.red,
       ),
         body: Center(
           child: Image(
-            image: NetworkImage('https://logodix.com/logo/727039.jpg')
+            image: AssetImage('images/hd.png')
           ),
         ),
       ),
